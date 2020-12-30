@@ -1,0 +1,58 @@
+.header ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.header ul li {
+  display: inline-block;
+  cursor: pointer;
+}
+.header ul li {
+  background-color: black;
+  padding: 0.7em;
+}
+.header ul li a {
+  color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+  width: 600px;
+  height: 400px;
+  background-color: #eaeaea;
+}
+.container .box {
+  width: 60px;
+  height: 60px;
+  background-color: salmon;
+  text-align: center;
+  line-height: 60px;
+}
+
+@media (max-width: 592px) {
+  .container {
+    width: 80%;
+  }
+}
+.footer ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.footer ul li {
+  display: inline-block;
+  cursor: pointer;
+}
+.footer ul li {
+  padding: 0.4em;
+  background-color: salmon;
+}
+.footer ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=main.css.map */
